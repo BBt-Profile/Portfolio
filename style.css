@@ -1,0 +1,119 @@
+body{
+    background-color: #2b1f35;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+
+.container{
+    overflow: hidden;
+    width: 50%;
+}
+
+
+
+
+
+#navbar{
+    color: #8d7d9ba9;
+    background-color:#b6b1c8;
+}
+
+
+#navbar ul{
+    padding: 10;
+    list-style: none;
+}
+
+#navbar li{
+    display:inline; 
+}
+
+
+#navbar a{
+        color:black;
+        font-size: 18px;
+        font-weight: bold;
+        padding-right: 15px;
+        text-decoration: none;
+}
+
+
+#navbar a:hover {
+    text-decoration: underline; 
+}
+
+
+.clr{
+    clear:both;
+}
+
+.box{
+    width:30%;
+    margin:0;
+
+    text-align:start;
+    background-color: #c3add8be;
+    border-left:10px #5b5672 solid;
+    margin-top: 50px;
+}
+
+#skills{    
+    padding: 5px 30px;
+    float: left;
+}
+
+
+#project{
+    padding: 5px 30px;
+    float: left;
+}
+
+
+#entrance{
+    background-color: #3c3244;
+    color:#a4a2a5;
+    background-position:right;
+    opacity: 0.5;
+    float: right;
+    width:68.5%;
+    text-align: center;
+    padding-bottom: 300px;
+    position: sticky;
+}
+
+
+#entrance h1{
+    font-size:xx-large;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+
+
+
+
+
+#main-footer{
+    color: #c3add8be;
+    text-align:center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
+
