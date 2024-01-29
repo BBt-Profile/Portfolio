@@ -50,6 +50,19 @@ body{
     clear:both;
 }
 
+
+.portrait{
+    width:500px;
+    height:600px;
+    mask-image: linear-gradient(rgba(0, 0, 0, 1) 70%, transparent);  
+    mix-blend-mode:screen;
+    filter: drop-shadow(0 0 10px #b6b1c8);
+    float: right;
+    box-shadow: none;
+    margin-bottom: 70px;
+  }
+
+
 .box{
     width:30%;
     margin:0;
